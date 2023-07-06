@@ -1,0 +1,27 @@
+#exclude all file but not folder
+*
+!*/
+
+#exclude folder
+node_modules
+
+#include js css html ejs json jpg png md
+!**/*.js
+!**/*.css
+!**/*.html
+!**/*.ejs
+!**/*.json
+!**/*.jpg
+!**/*.png
+!**/*.md
+
+#include some important file
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.npmrc
+!client/humans.txt
+!client/robots.txt
+!client/browserconfig.xml
+!client/favicon.ico
+!client/site.webmanifest
